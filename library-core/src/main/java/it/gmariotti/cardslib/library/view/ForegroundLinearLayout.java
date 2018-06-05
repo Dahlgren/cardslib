@@ -62,7 +62,7 @@ public class ForegroundLinearLayout extends LinearLayout {
                 defStyle, 0);
 
         mForegroundGravity = a.getInt(
-                R.styleable.ForegroundLinearLayout_android_foregroundGravity, mForegroundGravity);
+                R.styleable.ForegroundLinearLayout_foregroundGravity, mForegroundGravity);
 
         final Drawable d = a.getDrawable(R.styleable.ForegroundLinearLayout_android_foreground);
         if (d != null) {
@@ -70,7 +70,7 @@ public class ForegroundLinearLayout extends LinearLayout {
         }
 
         mForegroundInPadding = a.getBoolean(
-                R.styleable.ForegroundLinearLayout_android_foregroundInsidePadding, true);
+                R.styleable.ForegroundLinearLayout_foregroundInsidePadding, true);
 
         a.recycle();
 
